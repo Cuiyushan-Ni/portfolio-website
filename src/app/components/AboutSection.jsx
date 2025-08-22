@@ -10,8 +10,12 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className="list-disc pl-2">
-                <li>Node.js</li>
-                <li>C++</li>
+                <li>C/ C++</li>
+                <li>JavaScript (React, Node.js)</li>
+                <li>Python (PyTorch, scikit-learn)</li>
+                <li>Spring Boot</li>
+                <li>SQL/ MySQL/ PostgreSQL</li>
+                <li>AWS</li>
             </ul>
         ),
     },
@@ -31,8 +35,9 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className="list-disc pl-2">
-                <li>Software Developer</li>
-                <li>Data Analyst</li>
+                <li>Software Developer at Yanc Data Consulting</li>
+                <li>Data Analyst at Accenture Consulting</li>
+                <li>Risk Analyst at Optimus SBR</li>
             </ul>
         ),
     },
@@ -54,8 +59,7 @@ const AboutSection = () => {
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                 <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                 <p className="text-base lg:text-lg"> 
-                    As a Full Stack Developer, I'm looking to join Promise Robotics where I can apply my knowledge of web development 
-principles, databases, and software engineering methodologies to deliver high-quality products.
+                    I’m Remy, a software engineer who loves bring scrappy ideas to real life. When I’m not coding, I’m probably queuing 80s road rock, catching up on anime, or losing friendships in Overcooked. I also train Muay Thai and have a soft spot for stylish horror films. ps: Please take a look at the 28 years later.
                 </p>
                 <div className="flex flex-row justify-start mt-8">
                     <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}> 
